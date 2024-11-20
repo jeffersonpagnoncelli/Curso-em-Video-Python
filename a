@@ -1,0 +1,6 @@
+bi = int(input('Digite qualquer ano para saber se é bissexto ou não: '))
+if bi % 4 == 0:
+    print('É bissexto!')
+
+else:
+    print('Não é bissexto!')
